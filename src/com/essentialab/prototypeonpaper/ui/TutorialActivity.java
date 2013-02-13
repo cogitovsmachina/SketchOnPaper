@@ -1,7 +1,11 @@
-package com.essentialab.prototypeonpaper;
+package com.essentialab.prototypeonpaper.ui;
 
-import android.os.Bundle;
+import com.essentialab.prototypeonpaper.R;
+import com.essentialab.prototypeonpaper.R.layout;
+import com.essentialab.prototypeonpaper.R.menu;
+
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class TutorialActivity extends Activity {
@@ -10,6 +14,7 @@ public class TutorialActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tutorial);
+		
 	}
 
 	@Override
