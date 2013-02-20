@@ -27,6 +27,7 @@ public class PrototypeOnPaperApplication extends Application {
 
 		PrototypeOnPaperApplication.context = getApplicationContext();
 
+		//Testing Parse
 		// ParseObject testObject = new ParseObject("TestObject");
 		// testObject.put("is this", "working?");
 		// testObject.saveInBackground();

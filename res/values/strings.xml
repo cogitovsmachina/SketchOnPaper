@@ -9,7 +9,9 @@
     <string name="password_login">Example: qwerty123</string>
     <string name="menu_settings">Settings</string>
     <string name="app_id">139548399542234</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="please_wait_message">Please wait</string>
     <string name="title_activity_tutorial">Tutorial</string>
+    
+    
 
 </resources>
