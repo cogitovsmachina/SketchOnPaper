@@ -22,16 +22,10 @@ public class PrototypeOnPaperApplication extends Application {
 		ParseUser.enableAutomaticUser();
 		ParseACL defaultACL = new ParseACL();
 		ParseACL.setDefaultACL(defaultACL, true);
-		
-		ParseFacebookUtils.initialize(""+facebookAppId);
+
+		ParseFacebookUtils.initialize("" + facebookAppId);
 
 		PrototypeOnPaperApplication.context = getApplicationContext();
-
-		//Testing Parse
-		// ParseObject testObject = new ParseObject("TestObject");
-		// testObject.put("is this", "working?");
-		// testObject.saveInBackground();
-		// Log.e("***", "here?");
 
 	}
 

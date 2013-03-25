@@ -1,14 +1,15 @@
 package com.essentialab.prototypeonpaper.ui;
 
-import android.app.Activity;
+import com.essentialab.prototypeonpaper.R;
 import android.content.Intent;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.essentialab.prototypeonpaper.R;
 import com.parse.ParseFacebookUtils;
+import com.parse.ParseUser;
 
 public class TutorialActivity extends Activity {
 
@@ -16,7 +17,7 @@ public class TutorialActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tutorial);
-		Toast.makeText(this, "It works", 300).show();
+		Log.e("***", ""+ParseFacebookUtils.getSession().getActiveSession());
 	}
 
 	public void logOut(View v) {
